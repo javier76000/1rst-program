@@ -1,0 +1,14 @@
+name = 12
+name = input("Tapez votre nom :")
+
+try:
+    name = int(name)
+except:
+    name
+    
+print(type(name))
+if type(name) is str:
+    print(name + " est un joli nom")
+elif type(name) is int:
+    print("vous venez de taper un nombre ...")
+
